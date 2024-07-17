@@ -28,8 +28,10 @@ body {
 }
 
 .search{
+    cursor: pointer;
     display: flex;
     align-items: center;
+    margin-right: 24px;
 }
 /*Header - Ende*/
 /*Footer - Beginn*/
@@ -78,7 +80,7 @@ cursor: pointer;
 
 .animated-button:hover {
 box-shadow: 0 10px 20px rgba(0,0,0,0.2);
-color: red;
+color: #565959;
 font-weight: 500;
 }
 
