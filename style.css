@@ -87,8 +87,12 @@ button {
     font-weight: 500; /* Textgewicht ändern */
 }
 
+@font-face {
+    font-family: 'PokemonSolid';
+    src: url('./fonts/pokemonsolid.woff') format('woff');
+}
 
-.footer{
+.footer {
     background-color: #cc705e;
     z-index: 1;
     height: 12vh;
@@ -98,7 +102,7 @@ button {
     margin-bottom: 0;
 }
 
-.signature{
+.signature {
     color: white;
     display: flex;
     align-items: center;
@@ -106,6 +110,17 @@ button {
     flex-direction: column-reverse;
     gap: 18px;
     margin-top: 12px;
+}
+
+.pokemon-style{
+    font-family: 'PokemonSolid', Arial, sans-serif; /* Ersetzen Sie dies durch die tatsächliche Schriftart, falls verfügbar */
+    font-size: 24px; /* Passen Sie die Schriftgröße nach Bedarf an */
+    color: #ffcb05; /* Gelbe Farbe ähnlich dem Pokémon-Text */
+    text-shadow: 3px 3px 0 #3b4cca, /* Blaue Umrandung */
+                 -4px -1px 0 #3b4cca,  
+                  1px -4px 0 #3b4cca,
+                 -4px  1px 0 #3b4cca,
+                  1px  1px 0 #3b4cca;
 }
 /*Footer - Ende*/
 /*Templates - Ende*/
