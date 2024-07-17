@@ -3,21 +3,27 @@
 }
 
 body {
-    background-color: #878582;
+    background-color: #7999ad;
     font-family: 'lato', sans-serif;
 }
 
 /*Templates - Beginn*/
 /*Header - Beginn*/
 .header{
-    background-color: #cc705e;
+    background-color: #7999ad;
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: relative;
 }
 
-.header-img, .cover-img {
+.header-img  {
+    height: 64px;
+    width: auto; 
+    margin: 24px 0 12px 22px;
+}
+
+.cover-img {
     height: 78px;
     width: auto; 
     margin: 24px 0 12px 22px;
@@ -41,6 +47,7 @@ body {
 /*Footer - Beginn*/
 
 button {
+    margin: 2px 0 0 0;
     padding: 12px 12px;
     border-radius: 12px;
     font-family: 'lato', sans-serif;
@@ -93,7 +100,7 @@ button {
 }
 
 .footer {
-    background-color: #cc705e;
+    background-color: #3c7499;
     z-index: 1;
     height: 12vh;
     overflow: hidden;
@@ -114,9 +121,9 @@ button {
 
 .pokemon-style{
     font-family: 'PokemonSolid', Arial, sans-serif; /* Ersetzen Sie dies durch die tatsächliche Schriftart, falls verfügbar */
-    font-size: 24px; /* Passen Sie die Schriftgröße nach Bedarf an */
+    font-size: 18px; /* Passen Sie die Schriftgröße nach Bedarf an */
     color: #ffcb05; /* Gelbe Farbe ähnlich dem Pokémon-Text */
-    text-shadow: 3px 3px 0 #3b4cca, /* Blaue Umrandung */
+    text-shadow: 2px 2px 0 #3b4cca, /* Blaue Umrandung */
                  -4px -1px 0 #3b4cca,  
                   1px -4px 0 #3b4cca,
                  -4px  1px 0 #3b4cca,
@@ -126,7 +133,7 @@ button {
 /*Templates - Ende*/
 
 .container{
-    background-color: #cc705e;
+    background-color: #3c7499;
     border-radius: 15px;
     display: flex;
     justify-content: center;
@@ -177,5 +184,17 @@ textarea::placeholder{
     height: 90%;
     object-fit: cover;
 }
+
+.pikachu-gif {
+    display: flex;
+    height: 60px; 
+    width: auto;
+    object-fit: cover;
+    z-index: 2;
+    cursor: none;
+}
+
+
+
 
 
