@@ -50,7 +50,6 @@ border-radius: 12px; /* Vereinheitlicht die Rundung mit dem normalen Button */
 color: #333;
 font-size: 18px;
 font-weight: bold;
-cursor: pointer;
 transition: all 0.3s ease;
 box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 position: relative;
@@ -73,14 +72,14 @@ transition: all 0.5s ease;
 .animated-button:hover::before {
 transform: translate(-50%, -50%) scale(1);
 background: linear-gradient(45deg, #ff0000, white, blue);
-opacity: 0.5; /* Sichtbarkeit des Effekts erhöhen */
+opacity: 0.5;                                                       /* Sichtbarkeit des Effekts erhöhen */
+cursor: pointer;
 }
 
 .animated-button:hover {
 box-shadow: 0 10px 20px rgba(0,0,0,0.2);
 color: red;
 font-weight: 500;
-cursor: pointer;
 }
 
 .footer{
