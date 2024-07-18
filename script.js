@@ -1,3 +1,7 @@
+let poke = [];
+
+const BASE_URL = "https://pokeapi.co/api/v2/pokemon/ditto";
+
 async function includeHTML() {
     let includeElements = document.querySelectorAll('[w3-include-html]');
     for (let i = 0; i < includeElements.length; i++) {
