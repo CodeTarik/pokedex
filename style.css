@@ -40,13 +40,21 @@ body {
 .search{
     cursor: pointer;
     display: flex;
-    align-items: center;
-    margin-right: 24px;
-    display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
+
+#searchTextarea{
+    width: 410px;
+}
+
+.confirm{
+    display: flex;
+    align-items: center;
+}
+
+
 /*Header - Ende*/
 /*Footer - Beginn*/
 
@@ -64,8 +72,8 @@ button {
     border: none;
     border-radius: 12px; /* Vereinheitlicht die Rundung mit dem normalen Button */
     color: #333;
-    font-size: 18px;
-    font-weight: bold;
+    font-size: 12px;
+    font-weight: 900;
     transition: all 0.3s ease;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     position: relative;
@@ -189,14 +197,7 @@ textarea::placeholder{
     object-fit: cover;
 }
 
-.pikachu-gif {
-    display: flex;
-    height: 60px; 
-    width: auto;
-    object-fit: cover;
-    z-index: 2;
-    cursor: none;
-}
+
 
 
 
