@@ -145,12 +145,16 @@ button {
 /*Templates - Ende*/
 
 .container{
-    background-color: #3c7499;
+    /*background-color: #3c7499;*/
     border-radius: 15px;
     display: flex;
     justify-content: center;
     height: 48vh;
     margin: 42px 24px;
+    background-image: url(./jpg/water\ poke.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .title{
