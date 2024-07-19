@@ -14,4 +14,19 @@ async function includeHTML() {
             element.innerHTML = 'Page not found';
         }
     }
-  }
+}
+
+
+document.addEventListener("DOMContentLoaded", function() {
+    var c = document.getElementById("myCanvas");
+    var ctx = c.getContext("2d");
+
+    // Gradient erstellen
+    var grd = ctx.createLinearGradient(0, 0, 200, 0);
+    grd.addColorStop(0, "blue");
+    grd.addColorStop(1, "red");
+
+    // Mit Gradient füllen
+    ctx.fillStyle = grd;
+    ctx.fillRect(10, 10, 150, 80);
+});

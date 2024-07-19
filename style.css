@@ -7,6 +7,7 @@ body {
     font-family: 'lato', sans-serif;
 }
 
+
 /*Templates - Beginn*/
 /*Header - Beginn*/
 .header{
@@ -24,9 +25,18 @@ body {
 }
 
 .cover-img {
-    height: 78px;
-    width: auto; 
-    margin: 24px 0 12px 22px;
+    
+    width: auto;
+    height: 92px;
+}
+
+.center-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 
 .header-img {
@@ -37,23 +47,29 @@ body {
     font-family: 'lato', sans-serif;
 }
 
-.search{
+.search {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
 }
-
 textarea{
     cursor: pointer;
 }
 
-#searchTextarea{
-    width: 410px;
+#searchTextarea {
+    width: 200px;
+    margin-bottom: 10px;
 }
 
-.confirm{
+.search-button {
+    width: 50px;
+    height: auto;
+    cursor: pointer;
+}
+
+.confirm {
     display: flex;
+    flex-direction: column;
     align-items: center;
 }
 
